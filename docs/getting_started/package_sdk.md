@@ -1,4 +1,4 @@
-## Package Info
+# Package SDK
 Every mod needs to have a `package-info.xml` file that retains multiple information about the mod, such as the name, version, compatible SMF versions, installation process ...etc. We will go in detail about all that can be added in this file.
 
 ## Format

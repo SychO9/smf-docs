@@ -1,10 +1,10 @@
 - Getting Started
-    * [Quickstart](getting_started/quickstart.md)
+    * [Quick Start](getting_started/quickstart.md)
     * [Package SDK](getting_started/package_sdk.md)
     * [Theme Package SDK](getting_started/theme_package_sdk.md)
 
 - Hooks
-    * [Introduction](hooks/hooks.md)
+    * [Integration Hooks](hooks/hooks.md)
     * [Available Hooks](hooks/all_hooks.md)
 
 - Frontend
