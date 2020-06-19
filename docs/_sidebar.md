@@ -14,6 +14,7 @@
     * [Icons](frontend/icons.md)
 
 - Digging Deeper
+    * [Database Functions](digging_deeper/database_functions.md)
     * [Background Tasks](digging_deeper/background_tasks.md)
     * [Scheduled Tasks](digging_deeper/scheduled_tasks.md)
     * [Alerts](digging_deeper/alerts.md)
