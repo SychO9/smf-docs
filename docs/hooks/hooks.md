@@ -7,8 +7,15 @@ The code for a hook, calling integration functions, looks like this in the codeb
 call_integration_hook('integrate_*', array($param1, $param2));
 ```
 
-## Using Hooks
-To make use of a hook, you need the `add_integration_function()` function, usually you would want to use this function upon mod installation as so:
+## Using hooks in your mod
+As described in the [Package SDK](getting_started/package_sdk.md?id=hook), you can register integration functions by adding the hook element to your operation in the package info file.
+```xml
+<hook hook="hook_name" function="function_name" file="file_path_containing_function" />
+```
+You can also refer to the [Quick Start](getting_started/quickstart.md) to see real examples.
+
+## Manually Using Hooks
+If for some reason you do not want or can not use the mod package's hook tags to register your integration functions, you can use the functions `add_integration_function()` and `remove_integration_function()`.
 
 ```php
 add_integration_function($hook_name, $function_name, $make_permanent);
